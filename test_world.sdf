@@ -24,7 +24,7 @@
     <plugin
          filename="libwind_tests_plugin.so"
       name="gz::sim::v8::systems::WindTests">
-        <csv_file>/home/edgar/PX4-Autopilot/Tools/simulation/gz/worlds/DATOS_VIENTO/viento1.csv</csv_file>
+        <csv_file>/ruta/al/archivo/csv</csv_file>
           <time_per_data_point>5.0</time_per_data_point> <!-- seconds -->
           <force_approximation_scaling_factor>1.0</force_approximation_scaling_factor>
     </plugin>
