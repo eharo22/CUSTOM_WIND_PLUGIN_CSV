@@ -42,8 +42,7 @@ El archivo viento1.csv contiene una lista que mantiene constante la dirección d
 El archivo viento2.csv mantiene constante la magnitud pero varía la dieracción de 0° a 360°.
 
 9)  Se activa QGroundControl para poder comandar al dron.
-10)  
-11) Para probar el plugin, se ingresa primero a PX4 para activar el entorno:
+10) Para probar el plugin, se ingresa primero a PX4 para activar el entorno:
 ```
   cd PX4-Autpilot
 ```
