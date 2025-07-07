@@ -114,7 +114,7 @@ export GZ_SIM_SYSTEM_PLUGIN_PATH=$HOME/workspace/install/lib:$GZ_SIM_SYSTEM_PLUG
 
 RECOMENDACIÓN
 =============
-Si se desea crear un nuevo mundo (SDF) con el plugin, a aprte de incluirlo deben estar simepre presentes los siguientes:
+Si se desea crear un nuevo mundo (SDF) con el plugin, a parte de incluirlo como en el ejemplo, también deben estar siempre presentes las siguientes líneas:
 ```
     <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
     <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
