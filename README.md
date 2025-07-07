@@ -115,7 +115,7 @@ export GZ_SIM_SYSTEM_PLUGIN_PATH=$HOME/workspace/install/lib:$GZ_SIM_SYSTEM_PLUG
 7) Se puede simular con:
 ```
 
- gs zim <ruta al sdf>
+ gz sim <ruta al sdf>
 ```
 
 RECOMENDACIÓN
