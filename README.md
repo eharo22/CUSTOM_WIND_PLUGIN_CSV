@@ -46,19 +46,19 @@ Pasos a seguir para poder usar este plugin:
 El archivo viento1.csv contiene una lista que mantiene constante la dirección del viento pero varía la magnitud de 0m/s a 100m/s alternadamente. 
 El archivo viento2.csv mantiene constante la magnitud pero varía la dieracción de 0° a 360°.
 
-9)  Se activa QGroundControl para poder comandar al dron.
-10) Para probar el plugin, se ingresa primero a PX4 para activar el entorno:
+8)  Se activa QGroundControl para poder comandar al dron.
+9) Para probar el plugin, se ingresa primero a PX4 para activar el entorno:
 ```
   cd PX4-Autpilot
 ```
 
-11) Se debe exportar explícitamente la carpeta del build creada para que Gazebo reconozca el nuevo plugin:
+10) Se debe exportar explícitamente la carpeta del build creada para que Gazebo reconozca el nuevo plugin:
 ```
 export GZ_SIM_SYSTEM_PLUGIN_PATH=$GZ_SIM_SYSTEM_PLUGIN_PATH:~/gz_ws/wind_tests_build
 ```
 
 
-12) Ya se puede probar el plugin con:
+11) Ya se puede probar el plugin con:
 ```
 PX4_GZ_WORLD=test_world make px4_sitl gz_x500
 ```
