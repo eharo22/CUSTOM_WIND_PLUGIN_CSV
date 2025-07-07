@@ -112,6 +112,12 @@ El archivo viento2.csv mantiene constante la magnitud pero varía la dieracción
 export GZ_SIM_SYSTEM_PLUGIN_PATH=$HOME/workspace/install/lib:$GZ_SIM_SYSTEM_PLUGIN_PATH
 ```
 
+7) Se puede simular con:
+```
+
+ gs zim <ruta al sdf>
+```
+
 RECOMENDACIÓN
 =============
 Si se desea crear un nuevo mundo (SDF) con el plugin, a parte de incluirlo como en el ejemplo, también deben estar siempre presentes las siguientes líneas:
